@@ -1,0 +1,71 @@
+#logo{
+    float:  center;
+}
+
+#cabecera 
+{
+    padding-top: 5px;
+    position: fixed;
+    top: 0;
+}
+
+#cabecera #menu
+{
+    
+    background: linear-gradient(to bottom, #d4d3d3 0px, rgba(255, 255, 255, 0.507) 100%);
+    border: 1px solid #ffffff62;
+    border-radius: 8px;
+    box-shadow: 0px 1px 1px rgb(112, 111, 111);
+    overflow: hidden;
+}
+
+#menu ul
+{
+    list-style: none;
+}
+
+#menu ul li
+{
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #050505;
+}
+
+#menu ul li input:hover
+{
+    /*background: linear-gradient(to bottom, #f2f2f2 0px, #dad9d4 100%);*/
+    border-bottom: 2px solid #000000;
+}
+
+#menu input 
+{
+    
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    /*padding:0 35px 0 5px; */
+    border-bottom:  1px solid #7a7878;
+
+}
+
+#pie{
+    
+    position: fixed;
+    left: 20%;
+    bottom: 0;
+    width: 55%;
+    height: 5%;
+    margin: 0px auto;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.199) 0px, #cecdcd 100%);
+    border: 1px solid #706f6f;
+    border-bottom: none;
+    border-radius: 8px 8px 0px 0px;
+    color: #000000;
+    
+    text-align: center;
+    
+}
